@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
   name = 'teverse',         # How you named your package folder (MyLib)
-  packages = ['teverse', 'teverse.utils'],   # Chose the same as "name"
+  packages = ['teverse'],   # Chose the same as "name"
   version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A python wrapper for the teverse api.',   # Give a short description about your library
