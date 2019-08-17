@@ -1,1 +1,1 @@
-from teverse import Client
+from .teverse import Client
