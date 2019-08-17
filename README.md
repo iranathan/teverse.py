@@ -7,7 +7,7 @@ Here is an example:
 import teverse, asyncio
 client = teverse.Client()
 
-def run():
+async def run():
     user = await client.User.get_user_by_id('zME5M')
     print(user) # Output:
     '''
